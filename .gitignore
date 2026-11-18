@@ -1,0 +1,52 @@
+
+# 1. Java Compiled Bytecode & JVM Crash Logs
+*.class
+*.log
+*.ctxt
+*.hprof
+hs_err_pid*
+replay_pid*
+
+
+# 2. Build System Output Directories (Maven & Gradle)
+target/
+build/
+.gradle/
+out/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+
+# 3. Packaged Archives & Binary Artifacts
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+
+
+# 4. IDE & Code Editor Metadata (IntelliJ IDEA, Eclipse, VS Code)
+.idea/
+*.iws
+*.iml
+*.ipr
+.vscode/
+.settings/
+.project
+.classpath
+.factorypath
+
+
+# 5. Environment Variables, Cryptographic Keys & OS Artifacts
+.env
+*.env
+.env.*
+*.key
+*.pem
+*.p12
+*.jks
+.DS_Store
+Thumbs.db
